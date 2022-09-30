@@ -1,50 +1,49 @@
-#include "QueueR.h"
+#include <iostream>
+#include "queuer.h"
 
-QueueR::Element::Element(const int value)
+QueueR::Node::Node(const int value)
     :value(value){
 
 }
 
 QueueR& QueueR::push(const int value){
-    Element* elem = new Element(value);
+    Node* elem = new Node(value);
     if(0 == count){
-        lastElem = elem;
-        firstElem = elem;
+        elem->nextNode = nullptr;
+        lastNode = elem;
         count = 1;
         return *this;
     }
-    elem->nextElem = lastElem;
-    lastElem = elem;
-    for(Element* i = lastElem; i != firstElem; i = i->nextElem){
-        if(i->value < i->nextElem->value){
-            std::swap(i->value,i->nextElem->value);
+    elem->nextNode = lastNode;
+    lastNode = elem;
+    count++;
+    for(Node* i = lastNode; i->nextNode != nullptr; i = i->nextNode){
+        if(i->value < i->nextNode->value){
+            std::swap(i->value,i->nextNode->value);
         } else{
             break;
         }
     }
-    count++;
     return *this;
 }
 
 QueueR& QueueR::pop(){
     if(count > 1){
-        Element* secondElem;
-        for(secondElem = lastElem; secondElem->nextElem != firstElem; secondElem = secondElem->nextElem);
-        delete secondElem->nextElem;
-        secondElem->nextElem = nullptr;
-        firstElem = secondElem;
+        Node* secondNode;
+        for(secondNode = lastNode; secondNode->nextNode->nextNode != nullptr; secondNode = secondNode->nextNode);
+        delete secondNode->nextNode;
+        secondNode->nextNode = nullptr;
         count--;
     } else if(count == 1){
-        firstElem = nullptr;
-        lastElem = nullptr;
+        lastNode = nullptr;
         count = 0;
     }
     return *this;
 }
 
-int QueueR::getMin(){
+const int QueueR::top(){
     if(count > 0){
-        return firstElem->value;
+        return this->front()->value;
     } else{
         return -1;
     }
@@ -57,17 +56,21 @@ QueueR& QueueR::clear(){
     return *this;
 }
 
-QueueR::Element* QueueR::front(){
+QueueR::Node* QueueR::front(){
     if(count > 0){
-        return firstElem;
+        Node* firstNode;
+        for(firstNode = lastNode; firstNode->nextNode != nullptr; firstNode = firstNode->nextNode);
+        return firstNode;
+        delete firstNode;
+        firstNode = nullptr;
     } else{
         return nullptr;
     }
 }
 
-QueueR::Element* QueueR::back(){
+QueueR::Node* QueueR::back(){
     if(count > 0){
-        return lastElem;
+        return lastNode;
     } else{
         return nullptr;
     }
@@ -75,15 +78,10 @@ QueueR::Element* QueueR::back(){
 
 QueueR::~QueueR(){
     this->clear();
-    delete firstElem;
-    delete lastElem;
+    delete lastNode;
 }
 
-int QueueR::size(){
-    return count;
-}
-
-bool QueueR::isEmpty(){
+bool QueueR::isEmpty() const{
     bool isEmpty = true ? count == 0 : false;
     return isEmpty;
 }

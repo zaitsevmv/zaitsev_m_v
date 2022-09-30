@@ -4,13 +4,13 @@
 class QueueR
 {
 public:
-    struct Element{
-        Element(const int value);
-        ~Element() = default;
+    struct Node{
+        Node(const int value);
+        ~Node() = default;
 
         int value;
 
-        Element* nextElem;
+        Node* nextNode;
     };
 
     QueueR() {}
@@ -22,21 +22,19 @@ public:
     QueueR& push(const int value);
     QueueR& pop();
 
-    int getMin();
+    const int top();
 
     QueueR& clear();
 
-    Element* front();
-    Element* back();
+    Node* front();
 
-    bool isEmpty();
+    Node* back();
 
-    int size();
+    bool isEmpty() const;
 
 private:
     int count = 0;
-    Element* firstElem;
-    Element* lastElem;
+    Node* lastNode;
 };
 
 #endif // QUEUER_H
