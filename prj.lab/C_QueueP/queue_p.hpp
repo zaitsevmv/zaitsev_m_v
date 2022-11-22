@@ -1,5 +1,5 @@
-#ifndef QUEUEP_H
-#define QUEUEP_H
+#ifndef QUEUE_P_HPP
+#define QUEUE_P_HPP
 
 #include <iostream>
 #include <memory>
@@ -39,4 +39,4 @@ public:
     bool isEmpty() const;
 };
 
-#endif // QUEUER_H
+#endif
