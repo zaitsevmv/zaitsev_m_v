@@ -71,7 +71,11 @@ public:
             return ErrorCode::kHandlerError;
         }
         QueueP thisQueue = thisQueuePair->second;
-        thisQueue.push(value);
+        try{
+            thisQueue.push(value);;
+        } catch(...){
+            return ErrorCode::kHandlerError;
+        }
         return ErrorCode::kGood;
     }
 

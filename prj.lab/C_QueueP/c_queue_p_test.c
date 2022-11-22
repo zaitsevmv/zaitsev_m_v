@@ -1,3 +1,6 @@
-//
-// Created by Matvey on 22.11.2022.
-//
+#include "c_queue_p.h"
+
+int main(){
+    QueueHandler queue = 0;
+    CreateQueue(&queue);
+}
