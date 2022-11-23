@@ -27,37 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54ac9ded-0bc3-4721-907c-dc72103c88c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a0f9bc96be2ce98cf2fe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-da3069d4c2ccbb637e55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cae0937f4f549e0721aa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-23T16-40-48-0083.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-c_queue_p-Debug-87879e797a4912f4fbda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-c_queue_p_test-Debug-3f8a5ade1fbd109b77c2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuep-Debug-55e9223edda4b301c7d8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuep_test-Debug-351e297316c1da6cf57c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuer-Debug-293b5c8bafe3a7a98cd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuer_test-Debug-db0643590fd74219b3f3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test_programs-Debug-82046e2f1194cfa7bc32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/prj.lab/TestTwoPrograms/test_programs.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/prj.lab/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/prj.lab/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.h" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.h" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/test_programs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/test_programs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.thirdparty/CMakeLists.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +147,7 @@
       <updated>1669215456013</updated>
       <workItem from="1669215457821" duration="3722000" />
       <workItem from="1669219530591" duration="11505000" />
-      <workItem from="1669236485377" duration="1362000" />
+      <workItem from="1669236485377" duration="3643000" />
     </task>
     <servers />
   </component>
