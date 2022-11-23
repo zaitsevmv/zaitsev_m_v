@@ -27,21 +27,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54ac9ded-0bc3-4721-907c-dc72103c88c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2c31b06d94fec5a3dcf3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-23T15-14-47-0181.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test_programs-Debug-9030cbdee62f2b4d0b91.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-twoPrograms-Debug-5bd0a98ea1f94cc1f3e8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-faad46ce9b82e1aae967.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-23T15-42-10-0578.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-c_queue_p-Debug-d422908b1286b3d4c97a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-c_queue_p_test-Debug-8307443a2d75d50ca123.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuep-Debug-4265f3082539c550f72c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuep_test-Debug-bf207114e62aaa7f43c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuer-Debug-bd2742a68d7e35b030a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-queuer_test-Debug-1a09e4e926fdff523bc8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test_programs-Debug-1a1bb681946b093ef70d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.thirdparty/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.h" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.h" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/test_programs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/test_programs.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.thirdparty/matplotplusplus/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/prj.thirdparty/matplotplusplus/.clang-format" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.thirdparty/matplotplusplus/.github/FUNDING.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prj.thirdparty/matplotplusplus/.github/FUNDING.yml" afterDir="false" />
@@ -1242,9 +1245,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Debug-test_programs" />
-  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2022" />
@@ -1269,7 +1269,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;language.cpp.clangd&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake Application.c_queue_p_test">
+  <component name="RunManager" selected="CMake Application.test_programs">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="c_queue_p" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="c_queue_p" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1324,7 +1329,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669215456013</updated>
       <workItem from="1669215457821" duration="3722000" />
-      <workItem from="1669219530591" duration="1000" />
+      <workItem from="1669219530591" duration="2603000" />
     </task>
     <servers />
   </component>

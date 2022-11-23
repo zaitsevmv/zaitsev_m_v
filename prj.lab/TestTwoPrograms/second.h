@@ -13,10 +13,10 @@ void second(std::vector<int>& input) {
     unique.reserve(200000);
     int idx_unique = n;
     for (int i = n - 1; 0 <= i; i -= 1) {
-        if (unique.find(data[i]) == nullptr) {
+        if (!unique.contains(data[i])) {
             idx_unique = data[i];
             unique.insert(idx_unique);
         }
     }
-    std::cout << idx_unique;
+    std::cout << "ans2 " << idx_unique << '\n';
 }

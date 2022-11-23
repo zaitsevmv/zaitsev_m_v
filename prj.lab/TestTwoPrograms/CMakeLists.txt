@@ -1,2 +1,1 @@
 add_executable(test_programs test_programs.cpp)
-target_link_libraries(test_programs PUBLIC matplot)

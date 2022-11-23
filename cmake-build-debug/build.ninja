@@ -107,7 +107,7 @@ build cmake_object_order_depends_target_queuep: phony || prj.lab/QueueP/CMakeFil
 
 build prj.lab/QueueP/CMakeFiles/queuep.dir/queuep.cpp.obj: CXX_COMPILER__queuep_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/QueueP/queuep.cpp || cmake_object_order_depends_target_queuep
   DEP_FILE = prj.lab\QueueP\CMakeFiles\queuep.dir\queuep.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\QueueP\CMakeFiles\queuep.dir
   OBJECT_FILE_DIR = prj.lab\QueueP\CMakeFiles\queuep.dir
@@ -139,7 +139,7 @@ build cmake_object_order_depends_target_queuep_test: phony || cmake_object_order
 
 build prj.lab/QueueP/CMakeFiles/queuep_test.dir/queuep_test.cpp.obj: CXX_COMPILER__queuep_test_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/QueueP/queuep_test.cpp || cmake_object_order_depends_target_queuep_test
   DEP_FILE = prj.lab\QueueP\CMakeFiles\queuep_test.dir\queuep_test.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\QueueP\CMakeFiles\queuep_test.dir
   OBJECT_FILE_DIR = prj.lab\QueueP\CMakeFiles\queuep_test.dir
@@ -201,7 +201,7 @@ build cmake_object_order_depends_target_queuer: phony || prj.lab/QueueR/CMakeFil
 
 build prj.lab/QueueR/CMakeFiles/queuer.dir/queuer.cpp.obj: CXX_COMPILER__queuer_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/QueueR/queuer.cpp || cmake_object_order_depends_target_queuer
   DEP_FILE = prj.lab\QueueR\CMakeFiles\queuer.dir\queuer.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\QueueR\CMakeFiles\queuer.dir
   OBJECT_FILE_DIR = prj.lab\QueueR\CMakeFiles\queuer.dir
@@ -233,7 +233,7 @@ build cmake_object_order_depends_target_queuer_test: phony || cmake_object_order
 
 build prj.lab/QueueR/CMakeFiles/queuer_test.dir/queuer_test.cpp.obj: CXX_COMPILER__queuer_test_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/QueueR/queuer_test.cpp || cmake_object_order_depends_target_queuer_test
   DEP_FILE = prj.lab\QueueR\CMakeFiles\queuer_test.dir\queuer_test.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\QueueR\CMakeFiles\queuer_test.dir
   OBJECT_FILE_DIR = prj.lab\QueueR\CMakeFiles\queuer_test.dir
@@ -295,14 +295,14 @@ build cmake_object_order_depends_target_c_queue_p: phony || prj.lab/C_QueueP/CMa
 
 build prj.lab/C_QueueP/CMakeFiles/c_queue_p.dir/c_queue_p.cpp.obj: CXX_COMPILER__c_queue_p_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/C_QueueP/c_queue_p.cpp || cmake_object_order_depends_target_c_queue_p
   DEP_FILE = prj.lab\C_QueueP\CMakeFiles\c_queue_p.dir\c_queue_p.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\C_QueueP\CMakeFiles\c_queue_p.dir
   OBJECT_FILE_DIR = prj.lab\C_QueueP\CMakeFiles\c_queue_p.dir
 
 build prj.lab/C_QueueP/CMakeFiles/c_queue_p.dir/queue_p.cpp.obj: CXX_COMPILER__c_queue_p_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/C_QueueP/queue_p.cpp || cmake_object_order_depends_target_c_queue_p
   DEP_FILE = prj.lab\C_QueueP\CMakeFiles\c_queue_p.dir\queue_p.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\C_QueueP\CMakeFiles\c_queue_p.dir
   OBJECT_FILE_DIR = prj.lab\C_QueueP\CMakeFiles\c_queue_p.dir
@@ -396,7 +396,7 @@ build cmake_object_order_depends_target_test_programs: phony || prj.lab/TestTwoP
 
 build prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj: CXX_COMPILER__test_programs_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/TestTwoPrograms/test_programs.cpp || cmake_object_order_depends_target_test_programs
   DEP_FILE = prj.lab\TestTwoPrograms\CMakeFiles\test_programs.dir\test_programs.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++20
   INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
   OBJECT_DIR = prj.lab\TestTwoPrograms\CMakeFiles\test_programs.dir
   OBJECT_FILE_DIR = prj.lab\TestTwoPrograms\CMakeFiles\test_programs.dir
@@ -411,7 +411,7 @@ build prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj
 
 build prj.lab/TestTwoPrograms/test_programs.exe: CXX_EXECUTABLE_LINKER__test_programs_Debug prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lmatplot  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = prj.lab\TestTwoPrograms\CMakeFiles\test_programs.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

@@ -12,6 +12,6 @@ void first(std::vector<int>& input) {
         idx = input[i];
         as[idx] = n - i - 1;
     }
-    std::cout << std::distance(as.begin(),std::max_element(as.begin(), as.end()));
+    std::cout << "ans1 " << std::distance(as.begin(),std::max_element(as.begin(), as.end())) << '\n';
 }
 
