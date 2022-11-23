@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="zaitsev_m_v" targetName="queuep_test" />
+      <config projectName="zaitsev_m_v" targetName="c_queue_p" />
+      <config projectName="zaitsev_m_v" targetName="queuep" />
+      <config projectName="zaitsev_m_v" targetName="queuer" />
+      <config projectName="zaitsev_m_v" targetName="c_queue_p_test" />
+      <config projectName="zaitsev_m_v" targetName="queuer_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54ac9ded-0bc3-4721-907c-dc72103c88c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/first.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/second.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj.lab/TestTwoPrograms/test_programs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zaitsev_m_v.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zaitsev_m_v.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/C_QueueP/c_queue_p.h" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/C_QueueP/c_queue_p.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/C_QueueP/c_queue_p_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/C_QueueP/c_queue_p_test.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2Hx8cZiRDqrB881HiLCR5TXsOZv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.c_queue_p_test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c_queue_p" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="c_queue_p" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c_queue_p_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="c_queue_p_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zaitsev_m_v" RUN_TARGET_NAME="c_queue_p_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="queuep" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="queuep" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="queuep_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="queuep_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zaitsev_m_v" RUN_TARGET_NAME="queuep_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="queuer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="queuer" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="queuer_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="queuer_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zaitsev_m_v" RUN_TARGET_NAME="queuer_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_programs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="test_programs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zaitsev_m_v" RUN_TARGET_NAME="test_programs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twoPrograms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zaitsev_m_v" TARGET_NAME="twoPrograms" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.c_queue_p" />
+      <item itemvalue="CMake Application.c_queue_p_test" />
+      <item itemvalue="CMake Application.queuep" />
+      <item itemvalue="CMake Application.queuep_test" />
+      <item itemvalue="CMake Application.queuer" />
+      <item itemvalue="CMake Application.queuer_test" />
+      <item itemvalue="CMake Application.test_programs" />
+      <item itemvalue="CMake Application.twoPrograms" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54ac9ded-0bc3-4721-907c-dc72103c88c1" name="Changes" comment="" />
+      <created>1669215456013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669215456013</updated>
+      <workItem from="1669215457821" duration="1022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -15,13 +15,16 @@
 
 
 #ifdef __cplusplus
+
 #include <cstdint>
 using std::uint64_t;
 using std::int32_t;
+
 extern "C" {
     #else
     #include <stdint.h>
     #endif
+
     typedef enum {
         kGood = 0, // all right
         kHandlerError, // bad handler
