@@ -386,45 +386,6 @@ build prj.lab/C_QueueP/rebuild_cache: phony prj.lab/C_QueueP/CMakeFiles/rebuild_
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target twoPrograms
-
-
-#############################################
-# Order-only phony target for twoPrograms
-
-build cmake_object_order_depends_target_twoPrograms: phony || prj.lab/TestTwoPrograms/CMakeFiles/twoPrograms.dir
-
-build prj.lab/TestTwoPrograms/CMakeFiles/twoPrograms.dir/first.cpp.obj: CXX_COMPILER__twoPrograms_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/TestTwoPrograms/first.cpp || cmake_object_order_depends_target_twoPrograms
-  DEP_FILE = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir\first.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
-  OBJECT_DIR = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir
-  OBJECT_FILE_DIR = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir
-
-build prj.lab/TestTwoPrograms/CMakeFiles/twoPrograms.dir/second.cpp.obj: CXX_COMPILER__twoPrograms_Debug C$:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab/TestTwoPrograms/second.cpp || cmake_object_order_depends_target_twoPrograms
-  DEP_FILE = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir\second.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.lab -IC:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/prj.thirdparty
-  OBJECT_DIR = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir
-  OBJECT_FILE_DIR = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target twoPrograms
-
-
-#############################################
-# Link the static library prj.lab\TestTwoPrograms\libtwoPrograms.a
-
-build prj.lab/TestTwoPrograms/libtwoPrograms.a: CXX_STATIC_LIBRARY_LINKER__twoPrograms_Debug prj.lab/TestTwoPrograms/CMakeFiles/twoPrograms.dir/first.cpp.obj prj.lab/TestTwoPrograms/CMakeFiles/twoPrograms.dir/second.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = prj.lab\TestTwoPrograms\CMakeFiles\twoPrograms.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = prj.lab\TestTwoPrograms\libtwoPrograms.a
-  TARGET_PDB = twoPrograms.a.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target test_programs
 
 
@@ -450,7 +411,7 @@ build prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj
 
 build prj.lab/TestTwoPrograms/test_programs.exe: CXX_EXECUTABLE_LINKER__test_programs_Debug prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir/test_programs.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lmatplot  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = prj.lab\TestTwoPrograms\CMakeFiles\test_programs.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -496,8 +457,6 @@ build libqueuep.a: phony prj.lab/QueueP/libqueuep.a
 
 build libqueuer.a: phony prj.lab/QueueR/libqueuer.a
 
-build libtwoPrograms.a: phony prj.lab/TestTwoPrograms/libtwoPrograms.a
-
 build queuep: phony prj.lab/QueueP/libqueuep.a
 
 build queuep_test: phony prj.lab/QueueP/queuep_test.exe
@@ -513,8 +472,6 @@ build queuer_test.exe: phony prj.lab/QueueR/queuer_test.exe
 build test_programs: phony prj.lab/TestTwoPrograms/test_programs.exe
 
 build test_programs.exe: phony prj.lab/TestTwoPrograms/test_programs.exe
-
-build twoPrograms: phony prj.lab/TestTwoPrograms/libtwoPrograms.a
 
 # =============================================================================
 # Folder targets.
@@ -559,7 +516,7 @@ build prj.lab/QueueR/all: phony prj.lab/QueueR/libqueuer.a prj.lab/QueueR/queuer
 #############################################
 # Folder: C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms
 
-build prj.lab/TestTwoPrograms/all: phony prj.lab/TestTwoPrograms/libtwoPrograms.a prj.lab/TestTwoPrograms/test_programs.exe
+build prj.lab/TestTwoPrograms/all: phony prj.lab/TestTwoPrograms/test_programs.exe
 
 # =============================================================================
 # Built-in targets

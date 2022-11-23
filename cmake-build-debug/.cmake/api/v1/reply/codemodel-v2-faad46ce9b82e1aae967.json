@@ -96,8 +96,7 @@
 					"source" : "prj.lab/TestTwoPrograms",
 					"targetIndexes" : 
 					[
-						6,
-						7
+						6
 					]
 				}
 			],
@@ -123,8 +122,7 @@
 						3,
 						4,
 						5,
-						6,
-						7
+						6
 					]
 				}
 			],
@@ -175,15 +173,8 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "test_programs::@c9be3ff6ac6dcb378487",
-					"jsonFile" : "target-test_programs-Debug-9030cbdee62f2b4d0b91.json",
+					"jsonFile" : "target-test_programs-Debug-1a1bb681946b093ef70d.json",
 					"name" : "test_programs",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 5,
-					"id" : "twoPrograms::@c9be3ff6ac6dcb378487",
-					"jsonFile" : "target-twoPrograms-Debug-5bd0a98ea1f94cc1f3e8.json",
-					"name" : "twoPrograms",
 					"projectIndex" : 0
 				}
 			]

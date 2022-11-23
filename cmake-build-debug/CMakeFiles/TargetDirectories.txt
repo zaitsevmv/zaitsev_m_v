@@ -14,7 +14,6 @@ C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_QueueP/CMakeFiles/c_queue_p_test.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_QueueP/CMakeFiles/edit_cache.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_QueueP/CMakeFiles/rebuild_cache.dir
-C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/twoPrograms.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/edit_cache.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/rebuild_cache.dir
