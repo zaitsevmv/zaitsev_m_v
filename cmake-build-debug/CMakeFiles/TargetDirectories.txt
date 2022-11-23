@@ -17,3 +17,8 @@ C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/test_programs.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/edit_cache.dir
 C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/CMakeFiles/rebuild_cache.dir
+C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.thirdparty/CMakeFiles/edit_cache.dir
+C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.thirdparty/CMakeFiles/rebuild_cache.dir
+C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.thirdparty/matplot/CMakeFiles/matplot.dir
+C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.thirdparty/matplot/CMakeFiles/edit_cache.dir
+C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.thirdparty/matplot/CMakeFiles/rebuild_cache.dir

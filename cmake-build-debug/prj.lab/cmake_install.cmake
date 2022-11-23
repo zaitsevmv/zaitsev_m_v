@@ -38,11 +38,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/QueueP/cmake_install.cmake")
-  include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/QueueR/cmake_install.cmake")
-  include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_QueueP/cmake_install.cmake")
-  include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/QueueR/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/C_QueueP/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Matvey/Desktop/2tp/zaitsev_m_v/zaitsev_m_v/cmake-build-debug/prj.lab/TestTwoPrograms/cmake_install.cmake")
 endif()
 
